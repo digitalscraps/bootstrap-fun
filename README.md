@@ -1,4 +1,7 @@
 
+#Resonator landing page
+
+## created by [Allison Campbell] (http://github.com/digitalscraps)
 
 ### Original template created with [Start Bootstrap](http://startbootstrap.com/) - [Agency](http://startbootstrap.com/template-overviews/agency/)
 
