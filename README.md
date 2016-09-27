@@ -4,14 +4,19 @@
 #### created by [Allison Campbell] (http://github.com/digitalscraps)
 
 ## Photo sizes for designers
-all sizes in pixels
+#### all sizes in pixels
 
 Section|Width|Height
 -------|-----|------
 Header|1920|985
 Events|600|450
+Buttons|200|200
 
-### Original template created with [Start Bootstrap](http://startbootstrap.com/) - [Agency](http://startbootstrap.com/template-overviews/agency/)
+### All illustrations or AI files need to be exported into .png or .svg files. 
+### Photographs can be in .jpeg format
+
+
+##Original template created with [Start Bootstrap](http://startbootstrap.com/) - [Agency](http://startbootstrap.com/template-overviews/agency/)
 
 [Agency](http://startbootstrap.com/template-overviews/agency/) is a one page agency portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
 
