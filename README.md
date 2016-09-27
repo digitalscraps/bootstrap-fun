@@ -4,10 +4,12 @@
 #### created by [Allison Campbell] (http://github.com/digitalscraps)
 
 ## Photo sizes for designers
-          W      H
-Header - 1920 x 985px
-Events - 600  x 450px (height can extend by width must be 600)
+all sizes in pixels
 
+Section|Width|Height
+-------|-----|------
+Header|1920|985
+Events|600|450
 
 ### Original template created with [Start Bootstrap](http://startbootstrap.com/) - [Agency](http://startbootstrap.com/template-overviews/agency/)
 
