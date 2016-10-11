@@ -146,6 +146,52 @@ fieldset[disabled] .btn-xl.active {
   color: #fed136;
   background-color: white;
 }
+
+.smile-icon-effect{
+  display: inline-block;
+	font-size: 0px;
+	cursor: pointer;
+	margin: 15px 30px;
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+	color: #fff;
+-webkit-transition: color 0.3s;
+-moz-transition: color 0.3s;
+transition: color 0.3s;
+transition-property: color;
+transition-duration: 0.3s;
+transition-timing-function: initial;
+transition-delay: initial;
+}
+
+.smile-icon-effect:after {
+	pointer-events: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	content: '';
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+.smile-icon-effect:before {
+	font-family: 'ecoicon';
+	speak: none;
+	font-size: 48px;
+	line-height: 90px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	display: block;
+	-webkit-font-smoothing: antialiased;
+}
 .navbar-custom {
   background-color: #222222;
   border-color: transparent;
@@ -278,7 +324,7 @@ header .intro-text .intro-heading {
   }
 }
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 section h2.section-heading {
   font-size: 40px;
@@ -295,7 +341,7 @@ section h3.section-subheading {
 }
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 75px 0;
   }
 }
 .service-heading {
@@ -309,8 +355,8 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-link {
   display: block;
   position: relative;
-  max-width: 400px;
-  margin: 0 auto;
+  max-width: none;
+  margin: auto auto;
   max-height: none;
   height: auto;
 }
@@ -336,6 +382,7 @@ section h3.section-subheading {
   bottom: 50%;
   margin-top: -12px;
   color: white;
+  padding:auto;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
   margin-top: -12px;
@@ -345,7 +392,7 @@ section h3.section-subheading {
   margin: 0;
 }
 #portfolio .portfolio-item .portfolio-caption {
-  max-width: 400px;
+  max-width: none;
   margin: 0 auto;
   background-color: white;
   text-align: center;
